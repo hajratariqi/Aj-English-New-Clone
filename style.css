@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Header */
+.row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.boderBottom{
+    width: 40%;
+    margin-left: 50px;
+    margin-top: -10px;
+    border-bottom:1px solid #47a39e ;
+}
+.inlineCol > p {
+    font-size: 1vw;
+    color: #544F4A;
+    font-style: oblique;
+    text-align: center;
+}
+.inlineCol p:first-child{
+    color: #f3a029;
+}
+.ajTvContainer  img{
+    width: 7vw;
+    height: 15vh;
+    object-fit: contain;
+
+}
+.ajTvContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ajTvContainer > p{
+    color: gray;
+    font-size: 0.7vw;
+}
+.newsCategroy{
+    display: flex;
+    border-top:2px solid ;
+    justify-content: center;
+    border-bottom:2px solid ;
+    align-items: center;
+
+}
+.newsCategroy > h2{
+    padding-right: 1%;
+    font-size: 1.1vw;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.fa-magnifying-glass{
+    color: grey;
+    font-size: 1.2vw;
+}
