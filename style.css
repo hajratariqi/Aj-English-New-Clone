@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 body{
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,7 +17,7 @@ body{
     border-bottom:1px solid #47a39e ;
 }
 .inlineCol > p {
-    font-size: 1vw;
+    font-size: 20px;
     color: #544F4A;
     font-style: oblique;
     text-align: center;
@@ -36,9 +38,10 @@ body{
 }
 .ajTvContainer > p{
     color: gray;
-    font-size: 0.7vw;
+    font-size: 15px;
 }
 .newsCategroy{
+    font-family: "Fjalla One", sans-serif;
     display: flex;
     border-top:2px solid ;
     justify-content: center;
@@ -55,4 +58,221 @@ body{
 .fa-magnifying-glass{
     color: grey;
     font-size: 1.2vw;
+}
+
+
+/* News Section */
+.mainNewsSection{
+    width: 70vw;
+    margin: auto;
+
+   
+}
+.rowContainer{
+    width: 70vw;
+    display: flex;
+    padding-top:30px;
+    font-family: monospace;
+    justify-content: center;
+
+}
+
+/* left Story section  */
+
+.topStoriesSection{
+    width: 22vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.storyButton{
+    width: 190px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: black;
+}
+.storyboxes{
+    width: 19vw;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: monospace;
+    border-bottom: 1px solid gainsboro;
+}
+.buttonContainer{
+    display: flex;
+    color: #03BBA1;
+    font-size: 0.8vw;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.buttonContainer p:first-child{
+    color: black;
+}
+.buttonContainer > span{
+    margin-top: 10px;
+    width: 20px;
+    color: black;
+    font-size: 1vw;
+    text-align: center;
+}
+.newsHeading{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.2vw;
+    font-family: monospace;
+}
+.newsStoryPara{
+    color: gray;
+    width: 55%;
+    font-size: 0.8vw;
+}
+.colum{
+    display: flex;
+}
+.colum > img{
+    width: 8vw;
+    object-fit: contain;
+}
+
+/* election News */
+.electionNews{
+    width: 30vw;
+    
+}
+.electionNews > img{
+    width: 30vw;
+}
+.electionNews > h1{
+    font-size: 1.5vw;
+    text-align: center;
+}
+.recommendedStorySection{
+    width: 32vw;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.articleSection{
+    width: 14vw;
+    padding: 10px;
+}
+.articleSection > img{
+    width: 14vw;
+}
+.articleSection > h2{
+    font-size: 1.1vw;
+}
+.popuralStorySection{
+    height: 139%;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+
+/* Papural story section */
+.popuralStorySection > h1{
+    padding: 7px;
+    margin-top: 0;
+    font-size: 1.6vw;
+    font-family:serif;
+    border-radius: 10px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    background-color: #E2EEE2;
+} 
+.popuralSection{
+    padding: 9px;
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+.popuralSection > p{
+    margin-top: 0;
+    font-size: 1vw;
+}
+.popuralSection > span{
+    width: 50px;
+    margin: 7px;
+    height: 20px;
+    font-size: 0.8vw;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 100px;
+    background-color: #E2EEE2;
+}
+/* Center news */
+.newsText{
+    display: flex;
+    padding: 20px;
+    border-top:1px solid black ;
+    border-bottom: 1px solid black;
+}
+.newsText > img{
+    width: 6vw;
+    height: 5vw ;
+    border-radius: 450%;
+    margin-top: 20px;
+}
+.newsText > h1{
+    font-weight: 300;
+    padding-left: 20px;
+}
+.centerNews{
+    margin-left: 29%;
+    margin-top: -30vh;
+
+}
+/* recap section */
+.recapSection{
+    margin-top: 20px;
+}
+.inlineRow{
+    display: flex;
+    justify-content: center;
+}
+/* .borderRight{
+    width: 20vw;
+    padding: 1px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    position: relative;
+    top: 30px;   
+    background-color: red;
+} */
+hr{
+    top: 50px;
+    left: -30%;
+    width: 18vw;
+    padding: 1px;
+    position: relative;
+    border-top:1px solid black ;
+    border-bottom:1px solid black ;
+}
+.borderRight{
+    top: -50px;
+    left: 30%;
+    width: 18vw;
+    padding: 1px;
+    position: relative;
+    border-top:1px solid black ;
+    border-bottom:1px solid black ;
+}
+.inlineRow > p{
+    color: teal;
+    font-weight: bold;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+}
+.inlineRow > img{
+    width: 1.8vw;
+    object-fit: contain;
 }
