@@ -1,8 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 /* Header */
 .row{
@@ -72,7 +73,6 @@ body{
     width: 70vw;
     display: flex;
     padding-top:30px;
-    font-family: monospace;
     justify-content: center;
 
 }
@@ -100,7 +100,6 @@ body{
     width: 19vw;
     margin-top: 20px;
     padding: 5px;
-    font-family: monospace;
     border-bottom: 1px solid gainsboro;
 }
 .buttonContainer{
@@ -108,7 +107,6 @@ body{
     color: #03BBA1;
     font-size: 0.8vw;
     font-weight: bold;
-    font-family: monospace;
     text-transform: uppercase;
 }
 .buttonContainer p:first-child{
@@ -126,7 +124,6 @@ body{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.2vw;
-    font-family: monospace;
 }
 .newsStoryPara{
     color: gray;
@@ -183,7 +180,6 @@ body{
     padding: 7px;
     margin-top: 0;
     font-size: 1.6vw;
-    font-family:serif;
     border-radius: 10px;
     letter-spacing: 0.4em;
     text-transform: uppercase;
@@ -223,12 +219,13 @@ body{
     margin-top: 20px;
 }
 .newsText > h1{
+    font-size: 1.5vw;
     font-weight: 300;
     padding-left: 20px;
 }
 .centerNews{
     margin-left: 29%;
-    margin-top: -30vh;
+    margin-top: -73vh;
 
 }
 /* recap section */
@@ -239,16 +236,7 @@ body{
     display: flex;
     justify-content: center;
 }
-/* .borderRight{
-    width: 20vw;
-    padding: 1px;
-    border-top:1px solid black;
-    border-bottom:1px solid black;
-    position: relative;
-    top: 30px;   
-    background-color: red;
-} */
-hr{
+.leftBorder{
     top: 50px;
     left: -30%;
     width: 18vw;
@@ -275,4 +263,164 @@ hr{
 .inlineRow > img{
     width: 1.8vw;
     object-fit: contain;
+}
+/* news channels list */
+.newsChanelsList{
+display: flex;
+}
+.newsChannels{
+    width: 16vw;
+    margin-left: 10px;
+
+}
+.newsChannels > img{
+    width: 16vw;
+}
+.newsChannels > p{
+    margin-top: 0;
+    font-size: 1vw;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.newsChannels span{
+    padding: 4px;
+    font-size: 10px;
+    border-radius: 4px;
+    background-color: #DF631D;
+    border: 1px solid red;
+}
+/* border  */
+.border{
+    padding: 1px;
+    border-top:1px solid black ;
+    border-bottom:1px solid black;
+    margin: 20px;
+}
+/* socialMediaNews */
+.socialMediaNews{
+    display: flex;
+
+}
+.mediaNewsSection{
+    width: 17vw;
+    margin-left: 10px;
+    text-align: center;
+}
+.mediaNewsSection > img {
+    width: 17vw;
+}
+.mediaNewsSection > h2 {
+    font-size: 1.2vw;
+}
+.mediaNewsSection > p {
+    width: 300px;
+    margin: auto;
+    font-size: 0.9vw;
+}
+.readNewsPaperContainer{
+    display: flex;
+    flex-wrap: wrap;
+} 
+/* read news paper section */
+.inlineItem{
+    display: flex;
+}
+.readPaperCard{
+    width: 21vw;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid gainsboro;
+    font-family: "Fjalla One", sans-serif;
+}
+.inlineItem > h1{
+    width: 16vw;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family: "Fjalla One", sans-serif;
+}
+.inlineItem > p{
+    color: gray;
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 0.8vw;}
+.readPaperCard > h2{
+    margin-top: 0;
+    font-size: 1.2vw;
+}
+.readPaperCard > p{
+    margin-top: 0;
+    font-size: 0.8vw;}
+.timeAgo{
+    color: #03BBA1;
+    font-weight: bold;
+    margin-top: 0;
+}
+.inlineItem p:first-child{
+    margin-top: 0;
+    padding-left: 10px;
+    font-size: 0.9vw;
+    font-family: "Fjalla One", sans-serif;    
+}
+.inlineItem > img{
+    width: 12vw;
+}
+.newContent{
+    display: flex;
+    background-color:orange;
+}
+/* rowCardNews */
+.rowCardNews{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+}
+.newContent{
+    margin-right: 10px;
+    width: 12vw;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+.newContent > img{
+   width: 12vw;
+}
+.lastCartRow > h1{
+    margin-top: 0;
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    font-family: "Fjalla One", sans-serif;    
+}
+.newContent > p{
+    margin-top: 0;
+    font-size: 0.7vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Fjalla One", sans-serif;    
+}
+/* new content section */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.SocialConnects > img {
+    width: 2vw;
+    padding-left: 10px;
+}
+.SocialConnects > p {
+  font-size: 0.6vw;
+  color: #544F4A;
+  font-family: monospace;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    color: gray;
+    font-size: 0.7vw;
+    padding-left: 20px;
+    font-family: monospace;
+    text-transform: uppercase;
 }
