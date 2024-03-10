@@ -398,6 +398,51 @@ display: flex;
     text-transform: uppercase;
     font-family: "Fjalla One", sans-serif;    
 }
+/* newContentNews */
+.lastNewscontent{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+.lastNewscontent > h1{
+    width: 30vw;
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-family: "Fjalla One", sans-serif;
+}
+.lastNewscontent > p{
+    width: 8vw;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    font-family: "Fjalla One", sans-serif;
+}
+.verticalborder{
+    top: -80px;
+    left: 19px;
+    width:1px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(180, 180, 180);
+}
+.leftSideCards{
+    display: flex;
+    margin-left : 60px;
+}
+.newsCardContainer{
+    margin-top: 0;
+    display: flex;
+    font-family: "Fjalla One", sans-serif;
+}
+.newsCard{
+    width: 10vw;
+    text-align: center;
+    margin-right: 10px;
+}
+.newsCard > img{
+    width: 10vw;
+    margin-right: 10px;
+
+}
 /* new content section */
 .footer{
     display: flex;
